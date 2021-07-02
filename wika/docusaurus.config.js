@@ -3,81 +3,79 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
-  url: 'https://your-docusaurus-test-site.com',
-  baseUrl: '/',
+  title: 'Wika Network',
+  tagline: 'Make the internet a better place!',
+  url: 'https://wika_website.github.io',
+  baseUrl: '/wika_website/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'randombishop', // Usually your GitHub org/user name.
+  projectName: 'wika_website', // Usually your repo name.
   themeConfig: {
+    colorMode: {
+      defaultMode: 'light',
+      disableSwitch: true
+    },
     navbar: {
-      title: 'My Site',
+      title: 'Wika Network',
       logo: {
-        alt: 'My Site Logo',
-        src: 'img/logo.svg',
+        alt: 'Wika Logo',
+        src: 'img/logo32.png',
       },
       items: [
         {
           type: 'doc',
           docId: 'intro',
           position: 'left',
-          label: 'Tutorial',
-        },
-        {to: '/blog', label: 'Blog', position: 'left'},
-        {
-          href: 'https://github.com/facebook/docusaurus',
-          label: 'GitHub',
-          position: 'right',
-        },
-      ],
+          label: 'Documentation',
+        }
+      ]
     },
     footer: {
       style: 'dark',
       links: [
         {
+          title: 'Community',
+          items: [
+            {
+              label: 'Github',
+              href: 'https://github.com/randombishop',
+            },
+            {
+              label: 'Discord',
+              href: 'https://discordapp.com/invite/sPEwJUmAwH',
+            }
+          ],
+        },
+        {
           title: 'Docs',
           items: [
             {
-              label: 'Tutorial',
+              label: 'White paper',
               to: '/docs/intro',
             },
           ],
         },
         {
-          title: 'Community',
+          title: 'Code',
           items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+              label: 'Browser Extension',
+              href: 'https://github.com/randombishop/wika_browser_ext',
             },
             {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
+              label: 'Blockchain Node',
+              href: 'https://github.com/randombishop/wika_node',
             },
             {
-              label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
-            },
-          ],
-        },
-        {
-          title: 'More',
-          items: [
-            {
-              label: 'Blog',
-              to: '/blog',
-            },
-            {
-              label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              label: 'This website',
+              href: 'https://github.com/randombishop/wika_website',
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Wika Network.`,
     },
     prism: {
       theme: lightCodeTheme,
@@ -89,16 +87,10 @@ module.exports = {
       '@docusaurus/preset-classic',
       {
         docs: {
-          sidebarPath: require.resolve('./sidebars.js'),
-          // Please change this to your repo.
-          editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/',
+          sidebarPath: require.resolve('./sidebars.js')
         },
         blog: {
-          showReadingTime: true,
-          // Please change this to your repo.
-          editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/blog/',
+          showReadingTime: true
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
