@@ -87,14 +87,10 @@ module.exports = {
       '@docusaurus/preset-classic',
       {
         docs: {
-          sidebarPath: require.resolve('./sidebars.js'),
-          editUrl:
-            'https://github.com/randombishop/wika_website',
+          sidebarPath: require.resolve('./sidebars.js')
         },
         blog: {
-          showReadingTime: true,
-          editUrl:
-            'https://github.com/randombishop/wika_website',
+          showReadingTime: true
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
