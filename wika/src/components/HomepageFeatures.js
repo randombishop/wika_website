@@ -5,7 +5,7 @@ import styles from './HomepageFeatures.module.css';
 const FeatureList = [
   {
     title: "If you're a generous internet consumer",
-    image: '../../static/img/splash1.png',
+    image: 'img/splash1.png',
     description: (
       <>
         Like your favorite pages and reward the authors and previous likers.
@@ -14,7 +14,7 @@ const FeatureList = [
   },
   {
     title: "If you authored a cool web page",
-    image: '../../static/img/splash2.png',
+    image: 'img/splash2.png',
     description: (
       <>
         Register it in one public decentralized database, whether your content lives in youtube, facebook, medium or any other internet place.<br/>
@@ -24,7 +24,7 @@ const FeatureList = [
   },
   {
     title: "If you want a better internet",
-    image: '../../static/img/splash3.png',
+    image: 'img/splash3.png',
     description: (
       <>
         Join and use the Wika Network to build a clean, public and non-intrusive database.<br/>
