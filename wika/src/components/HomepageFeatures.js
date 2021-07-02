@@ -4,46 +4,45 @@ import styles from './HomepageFeatures.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
-    Svg: require('../../static/img/undraw_docusaurus_mountain.svg').default,
+    title: "If you're a generous internet consumer",
+    image: '../../static/img/splash1.png',
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Like your favorite pages and reward the authors and previous likers.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
-    Svg: require('../../static/img/undraw_docusaurus_tree.svg').default,
+    title: "If you authored a cool web page",
+    image: '../../static/img/splash2.png',
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Register it in one public decentralized database, whether your content lives in youtube, facebook, medium or any other internet place.<br/>
+        Wika users will be able to reward you directly.
       </>
     ),
   },
   {
-    title: 'Powered by React',
-    Svg: require('../../static/img/undraw_docusaurus_react.svg').default,
+    title: "If you want a better internet",
+    image: '../../static/img/splash3.png',
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Join and use the Wika Network to build a clean, public and non-intrusive database.<br/>
+        The Wika Blockchain will empower new search engines and recommendation systems that respect your privacy and 100% transparent.
       </>
     ),
   },
 ];
 
-function Feature({Svg, title, description}) {
+function Feature({image, title, description}) {
   return (
     <div className={clsx('col col--4')}>
-      <div className="text--center">
-        <Svg className={styles.featureSvg} alt={title} />
-      </div>
       <div className="text--center padding-horiz--md">
         <h3>{title}</h3>
         <p>{description}</p>
+      </div>
+      <div className="text--center">
+        <img className={styles.featureImg} alt={title} src={image} />
       </div>
     </div>
   );
