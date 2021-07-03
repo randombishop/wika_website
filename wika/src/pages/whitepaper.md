@@ -1,3 +1,3 @@
 
-# Wika Network Whitepaper
+# Whitepaper
 
