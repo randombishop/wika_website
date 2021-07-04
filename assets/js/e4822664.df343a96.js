@@ -1,0 +1,1 @@
+(self.webpackChunkwika=self.webpackChunkwika||[]).push([[625],{5574:function(a){"use strict";a.exports=JSON.parse('{"allTagsPath":"/wika_website/blog/tags","slug":"hola","name":"hola","count":1,"permalink":"/wika_website/blog/tags/hola"}')}}]);
