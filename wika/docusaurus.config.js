@@ -5,13 +5,14 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 module.exports = {
     title: 'Wika Network',
     tagline: 'Make the internet a better place!',
-    url: 'https://wika_website.github.io',
-    baseUrl: '/wika_website/',
+    url: 'http://www.wika.network',
+    baseUrl: '/',
     onBrokenLinks: 'throw',
     onBrokenMarkdownLinks: 'warn',
     favicon: 'img/favicon.ico',
     organizationName: 'randombishop', // Usually your GitHub org/user name.
     projectName: 'wika_website', // Usually your repo name.
+    trailingSlash: false,
     themeConfig: {
         colorMode: {
             defaultMode: 'light',
@@ -24,6 +25,11 @@ module.exports = {
                 src: 'img/logo32.png',
             },
             items: [
+                {
+                    to: '/how-it-works',
+                    label: 'How it works',
+                    position: 'left'
+                },
                 {
                     to: '/roadmap',
                     label: 'Roadmap',
@@ -51,19 +57,6 @@ module.exports = {
                             label: 'Discord',
                             href: 'https://discordapp.com/invite/sPEwJUmAwH',
                         }
-                    ],
-                },
-                {
-                    title: 'Docs',
-                    items: [
-                        {
-                            label: 'Roadmap',
-                            to: '/roadmap',
-                        },
-                        {
-                            label: 'White paper',
-                            to: '/whitepaper',
-                        },
                     ],
                 },
                 {

@@ -2,6 +2,7 @@
 sidebar_position: 1
 ---
 
-# Wika Docs
+# Wika Wiki
 
-Welcome to the Wika Network wiki.
+Welcome to the Wika Wiki, home of our documentation.
+
