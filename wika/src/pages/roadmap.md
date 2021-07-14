@@ -1,7 +1,7 @@
 
 # Roadmap
 
-## Foundation
+## 1. Foundation
 
 - MVP browser extension and blockchain.
 - Fully decentralized governance and development community.
@@ -14,7 +14,7 @@
 **Objective: 10 000 users.**
 
 
-## Building
+## 2. Building
 
 - Medium traffic.
 - WikaTokens economy getting started.
@@ -27,7 +27,7 @@
 **Objective: 100 000 users.**
 
 
-## Scaling
+## 3. Scaling
 
 - Higher traffic.
 - More features and websites plugged with Wika blockchain. 
