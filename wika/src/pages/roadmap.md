@@ -1,20 +1,28 @@
 
 # Roadmap
 
-## Foundation
+## 1. Foundation
 
-- MVP browser extension and blockchain.
+- MVP:
+    * Blockchain
+    * Web app
+    * Browser extension
+    * Polkaswap Bridge
+    * Documentation and website
 - Fully decentralized governance and development community.
 - White paper defining the economic model, tokenomics, and governance.
 - Low traffic.
-- Only way to get Wika tokens is to receive them from a friend or earn them from reward programs.
+- Ways to get Wika tokens are: 
+    * Receive them from a friend;
+    * Earn them from reward programs;
+    * Buy on polkaswap and bridge to Wika blockchain.
 - Fair launch.
-- Token price = 0.
+- First liquididty pool with token price starting at 0.02 $US. 
 
 **Objective: 10 000 users.**
 
 
-## Building
+## 2. Building
 
 - Medium traffic.
 - WikaTokens economy getting started.
@@ -22,15 +30,15 @@
 - More websites allowing Likes without presence of Wika extension. 
 - Better UX.
 - Recommendation systems and search engines using Wika database.
-- Token price = market price on Uniswap and Polkaswap.
+- More liquididty available on Polkaswap and Uniswap.
 
 **Objective: 100 000 users.**
 
 
-## Scaling
+## 3. Scaling
 
 - Higher traffic.
 - More features and websites plugged with Wika blockchain. 
-- Token price = market price on both DEX and CEX.
+- Wika token exchangeable on both DEX and CEX.
 
 **Objective: 1 000 000 users.**
