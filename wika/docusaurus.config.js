@@ -50,10 +50,6 @@ module.exports = {
                     title: 'Community',
                     items: [
                         {
-                            label: 'Github',
-                            href: 'https://github.com/randombishop',
-                        },
-                        {
                             label: 'Discord',
                             href: 'https://discordapp.com/invite/sPEwJUmAwH',
                         }
@@ -63,12 +59,16 @@ module.exports = {
                     title: 'Code',
                     items: [
                         {
-                            label: 'Browser Extension',
-                            href: 'https://github.com/randombishop/wika_browser_ext',
-                        },
-                        {
                             label: 'Blockchain Node',
                             href: 'https://github.com/randombishop/wika_node',
+                        },
+                        {
+                            label: 'Web App',
+                            href: 'https://github.com/randombishop/wika_app',
+                        },
+                        {
+                            label: 'Browser Extension',
+                            href: 'https://github.com/randombishop/wika_browser_ext',
                         },
                         {
                             label: 'This website',
