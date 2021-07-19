@@ -28,7 +28,7 @@ const FeatureList = [
     description: (
       <>
         Join and use the Wika Network to build a clean, public and non-intrusive database.<br/>
-        The Wika Blockchain will empower new search engines and recommendation systems that respect your privacy and 100% transparent.
+        The Wika Blockchain will empower new search engines and recommendation systems that respect your privacy and are 100% transparent.
       </>
     ),
   },

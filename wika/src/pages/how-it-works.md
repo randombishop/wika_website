@@ -81,6 +81,8 @@ But the important idea here is that the Wika Network defines a Social Contract b
 People who like webpages reward the authors and referrers, 
 and also get a chance to earn rewards from upcoming likers.
 
+![Economic Model](/img/how-it-works/wika_economy.png)
+
 
 ## 4. Why should I buy and spend Wikas?
 
