@@ -5,10 +5,11 @@
 
 - MVP Codebase:
     * Blockchain
+    * Indexed Databases
+    * Offchain API
     * Web app
     * Browser Extension
-    * Indexed Database
-    * Basic Recommender System
+    * Integrations
     * Polkaswap Bridge
     * Website
     * Documentation

@@ -29,24 +29,14 @@ Project | Task | Reward (Wikas)| Comments | Status |
 | **wika_website** | Wika website template and CI/CD | 100 000 | [wika_website repo](https://github.com/randombishop/wika_website) | 80% completed, needs final hosting and CI/CD. 
 | **wika_node** | Implement a process inchain to create and reward feature requests | 100 000 | Instead of managing this through discord and executing with Sudo | -
 | **wika_browser_ext** | Error management: Replace alert with header error bar | 25 000 | [wika_browser_ext/issues/1](https://github.com/randombishop/wika_browser_ext/issues/1) | -
-| **wika_browser_ext** | Network selection (dev/test/main net) | 25 000 |  | -
-| **wika_browser_ext** | Address change | 25 000 | | -
-| **wika_browser_ext** | Wallet, send Wika | 50 000 | | -
-| **wika_browser_ext** | Claim a page test button | 50 000 | | -
-| **wika_browser_ext** | History | 25 000 | | -
-| **wika_browser_ext** | Owned pages | 25 000 |  | -
-| **wika_database** | Create a service that tracks the blockchain and prepares the data in a format suitable for exploration | 500 000 |  | -
-| **wika_rs** | Recommendation System first prototype | 500 000 |  | -
-| **wika_browser_ext** | Deploy to Google Extension Store and Firefox Store | 50 000 |  | -
-| **wika_node** | Bridge Wika/Ethereum | 1 000 000 |  | -
-| **wika_node** | Bridge Wika/Sora | 1 000 000 |  | -
+
 
 
 ## Documentation
 
 | Task | Reward (Wikas)| Comments | Status |
 |------|--------------:|----------|:------:|
-| Create a new documenation page | 5000 | | 2 Pages so far
+| Create a new documenation page | 5000 | | 5 Pages so far
 | Update an existing page | 1000 | | 
 
 

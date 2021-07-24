@@ -17,7 +17,7 @@ function HomepageHeader() {
           <Link
             className="button button--secondary button--lg"
             to="/docs/guides/getting-started">
-            Get Started in 5 minutes ⏱️
+            Get Started in 15 minutes ⏱️
           </Link>
         </div>
       </div>
@@ -30,7 +30,7 @@ export default function Home() {
   return (
     <Layout
       title={`Home page`}
-      description="Blockchain, URL Ownership registry, Reward authors with Wika tokens.<head />">
+      description="Blockchain to manage URL Ownership registry and reward authors with Wika tokens.<head />">
       <HomepageHeader />
       <main>
         <HomepageFeatures />

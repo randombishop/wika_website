@@ -4,7 +4,7 @@ import styles from './HomepageFeatures.module.css';
 
 const FeatureList = [
   {
-    title: "If you're a generous internet consumer",
+    title: "If you're a cool internet consumer",
     image: 'img/splash1.png',
     description: (
       <>
