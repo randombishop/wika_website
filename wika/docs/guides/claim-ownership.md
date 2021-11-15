@@ -6,13 +6,13 @@ sidebar_position: 3
 
 ## 1. Copy your ownership mark
 
-- Open the Wika Extension.
+- Open the Wika web app.
 
 - Go to menu > Claim Page Ownership
 
-- Click on the button **1. Copy This** to copy the mark that will prove you own the page.
+- Look up your webpage
 
-![screenshot](/img/docs/guides/claim_ownership.png)
+- Click on the button **1. Copy This** to copy the mark that will prove you own the page.
 
 - The mark should look like this:
 ```wika.network/author/0xd43593c715fdd31c61141abd04a99fd6822c8558854ccde39a5684e7a56da27d```
@@ -82,7 +82,6 @@ Please contact Wika team in discord channel if you're having trouble adding your
  
 - Once done, your request should be approved and the extension should show that the page belongs to you now
 
-![screenshot](/img/docs/guides/you_are_the_owner.png)
 
 
 ## 4. Good to know

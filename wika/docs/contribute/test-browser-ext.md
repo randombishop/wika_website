@@ -4,6 +4,17 @@ sidebar_position: 2
 
 # Test the browser extension
 
+## 0. Get the Polkadot-JS Extension
+
+- If you don't have it already, go to [https://polkadot.js.org/extension/](https://polkadot.js.org/extension/)
+and install the Polkadot extension.
+
+- The Polkadot-JS Extension manages Polkadot accounts and is used to sign transactions.
+
+- Create an account and make sure you select "Use with any network" 
+so that you can use the account in the Wika blockchain.
+
+
 ## 1. Get a copy of the code
 
 - Go to [https://github.com/randombishop/wika_browser_ext](https://github.com/randombishop/wika_browser_ext)
@@ -13,6 +24,10 @@ sidebar_position: 2
 ![screenshot](/img/docs/contribute/wika_website_github_download.png)
 
 - Unzip it somewhere handy.
+
+- Note: if you already downloaded it before to test a previous version, 
+you can replace the previous version and do a refresh. 
+(Go to `chrome://extensions/` for Google Chrome; or `about:debugging` for Firefox.)
 
 
 ## 2.a Add the extension to Google Chrome
@@ -47,25 +62,39 @@ sidebar_position: 2
 
 - Click on the wika icon at the top right of your browser window.
 
-![screenshot](/img/docs/contribute/extension_first_screenshot.png)
+![screenshot](/img/webapp/home.png)
 
-- If you got the above screenshot, Yay, you've successfully installed the latest version from source code and you're ready to start testing!
+- If it opened the webapp, Yay! You've successfully installed the latest version from source code and you're ready to start testing!
 Thank you for contributing to the Wika Community!
 
 
 ## 4 Create your account
 
-- Click the **Get started** button and follow the steps to create your account.
-When you create your account, you actually create 2 parts:
-  * The public address: this part is safe to share publicly to receive money for example.
-  * The private key: this part is the one that allows you to sign transactions, or prove that you own that address, that’s what allows you to send money for instance. 
-You should keep this secret part super safe and never share it with anyone.
-  
-- Once you've created your account, click the menu button then **Account**
+- Click the **Connect Account** button and follow the steps to select the Polkadot account.
 
-![screenshot](/img/docs/contribute/account_page.png)
+- If the account does not appear, make sure you have successfully installed Polkadot Extension, 
+created an account, and selected "Use with any network"
+  
+- After you've connected your account, account details should be displayed and the Wika icon should be ON.
+
+![screenshot](/img/webapp/account.png)
 
 - Copy your  **Public address (substrate format)** then send it to an admin in the discord server so that they send you some Wikas!
 
 
 
+## 5 The Wika Widget
+
+- When you have the Wika extension installed and a connected account, the Wika icon should show ON, 
+and whenever you browse to a new page, the Wika Widget will be injected in the page
+
+![screenshot](/img/docs/contribute/youtube_with_widget.png)
+
+- You can use the widget to send likes to any webpage.
+
+- It also shows your current balance and the amount of likes already received by current page.
+
+- If you want to prevent it from showing, click on the Wika icon and disconnect the account from the webapp.
+The switch will turn OFF and the widget won't show until you re-connect.
+
+- You can also turn off the extension by simply closing the tab that has the web app. 
