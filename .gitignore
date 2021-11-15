@@ -4,3 +4,7 @@
 # exclude PyCharm metadata
 .idea
 
+# Yar lock file
+wika/yarn.lock
+
+
